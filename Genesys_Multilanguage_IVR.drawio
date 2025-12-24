@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Multilanguage IVR Flow">
+    <mxGraphModel dx="1100" dy="700" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Start -->
+        <mxCell id="2" value="Incoming Call" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Welcome -->
+        <mxCell id="3" value="Welcome Greeting\n(English + Hindi)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Language Menu -->
+        <mxCell id="4" value="Language Selection Menu\n1: English\n2: Hindi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="220" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- English Task -->
+        <mxCell id="5" value="Set Language = English" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Hindi Task -->
+        <mxCell id="6" value="Set Language = Hindi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="260" y="360" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Department Menu -->
+        <mxCell id="7" value="Department Menu\n1: Tech Support\n2: Sales\n(Multilanguage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="110" y="460" width="260" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- Tech Support -->
+        <mxCell id="8" value="Tech Support Task\n(Language Based Prompts)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="20" y="600" width="220" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Sales -->
+        <mxCell id="9" value="Sales Task\n(Language Based Prompts)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="220" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections -->
+        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="7" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
